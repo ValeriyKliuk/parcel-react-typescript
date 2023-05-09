@@ -6,6 +6,8 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --quiet",
+    "prettier": "prettier 'src/**/*.{ts,tsx,html}' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +18,16 @@
     "@types/node": "^20.1.0",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
     "parcel": "^2.8.3",
+    "prettier": "^2.8.8",
     "process": "^0.11.10",
     "typescript": "^5.0.4"
   },
