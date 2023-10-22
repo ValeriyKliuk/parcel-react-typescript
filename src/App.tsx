@@ -1,3 +1,7 @@
 import React from 'react'
+import { getTodo } from './api/fetchjson'
 
-export const App = () => <h1>Hello, World!</h1>
+export const App = () => {
+  void getTodo()
+  return <h1>Hello, World!</h1>
+}
